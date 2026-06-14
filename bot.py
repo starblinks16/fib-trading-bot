@@ -5,13 +5,10 @@ CHAT_ID = "7588696401"
 
 url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
-response = requests.post(
-    url,
-    data={
-        "chat_id": CHAT_ID,
-        "text": "✅ Test message from GitHub"
-    }
-)
+response = requests.post(url, data={
+    "chat_id": CHAT_ID,
+    "text": "🔥 TEST SUCCESS: Bot is working perfectly"
+})
 
 print(response.status_code)
 print(response.text)
