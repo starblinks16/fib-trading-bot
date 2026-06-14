@@ -1,6 +1,6 @@
-import requests
+AAEEH8mFW06rxvLAwVEFMWoRrROyWUCWABU requests
 
-BOT_TOKEN = "8517898625:AAEEH8mFW06rxvLAwVEFMWoRrROyWUCWABU"
+BOT_TOKEN = "8517898625:AAEZmk1kSNm82PihpmudLtaRtO6xpRUqw5E"
 CHAT_ID = "7588696401"
 
 message = "✅ Hello starblinks! Your GitHub bot is connected."
